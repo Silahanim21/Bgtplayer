@@ -40,13 +40,13 @@ async def get_user_info(user, already=False):
     is_restricted = user.is_restricted
     caption = f"""<b><u>Usᴇʀ Fᴜʟʟ Dᴇᴛᴀɪʟs</u> ✨</b>
 
-<b>ɴᴀᴍᴇ:</b> {first_name}
-<b>ᴜsᴇʀɴᴀᴍᴇ:</b> {uname}
-<b>ᴍᴇɴᴛɪᴏɴ:</b> {mention}
-<b>ᴜsᴇʀ ɪᴅ:</b> <code>{user_id}</code>
-<b>ᴜsᴇʀ ᴅᴄ ɪᴅ:</b> <code>{dc_id}</code>
-<b>sᴄᴀᴍ:</b> {is_scam}
-<b>ʀᴇsᴛʀɪᴄᴛᴇᴅ:</b> {is_restricted}"""
+<b>isim:</b> {first_name}
+<b>:kullanıcı adı:</b> {uname}
+<b>kullanıcı:</b> {mention}
+<b>kimlik:</b> <code>{user_id}</code>
+<b>kimlik id:</b> <code>{dc_id}</code>
+<b>scam:</b> {is_scam}
+<b>profil:</b> {is_restricted}"""
     return [caption, photo_id]
 
 
