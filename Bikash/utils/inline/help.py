@@ -12,12 +12,12 @@ def help_pannel(_, START: Union[bool, int] = None):
     second = [
         InlineKeyboardButton(
             # text=_["BACK_BUTTON"],
-            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡",
-            url=f"https://t.me/BikashGadgetsTech",
+            text="📡 𝐠𝐮𝐧𝐜𝐞𝐥𝐥𝐞𝐦𝐞 📡",
+            url=f"https://t.me/kumsaldestekkanal",
         ),
         InlineKeyboardButton(
-            text="🛠️𝐌𝐚𝐢𝐧𝐭𝐚𝐧𝐞𝐫🛠️",
-            url=f"t.me/BikashHalder",
+            text="🛠️𝐚𝐝𝐦𝐢𝐧🛠️",
+            url=f"t.me/sevimsiz_biri",
         ),
         InlineKeyboardButton(
             text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data=f"close"
