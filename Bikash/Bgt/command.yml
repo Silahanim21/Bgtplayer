@@ -9,7 +9,7 @@
 # Bot Commands
 PING_COMMAND : ["ping"]
 START_COMMAND : ["start", "bs"]
-HELP_COMMAND : ["help"]
+HELP_COMMAND : ["help", "yardım"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
@@ -17,7 +17,7 @@ STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "bgt", "/bgt", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAY_COMMAND : ["oynat", "bgt", "/bgt", "voynat", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
 PLAYMODE_COMMAND : ["playmode", "bgtmode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
@@ -28,22 +28,22 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 
 # Tools
-QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
+QUEUE_COMMAND : ["kuyruk","cqueue", "player", "cplayer", "playing", "cplaying"]
 SONG_COMMAND : ["song", "video"]
-LYRICS_COMMAND : ["lyrics", "lyric"]
+LYRICS_COMMAND : ["lyrics", "sarkisozu"]
 
 
 # Admin Commands
 AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "x", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
+PAUSE_COMMAND : ["durdur", "cpause"]
+RESUME_COMMAND : ["devam", "cresume"]
+MUTE_COMMAND : ["sessiz", "cmute"]
+UNMUTE_COMMAND : ["unsessiz", "cunmute"]
+STOP_COMMAND : ["stop", "son", "x", "cstop", "cend"]
+SKIP_COMMAND : ["atla", "cskip"]
+SHUFFLE_COMMAND : ["karistir", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
 RESTART_COMMAND : ["restart", ".reset", "gpreboot"]
@@ -51,12 +51,12 @@ RESTART_COMMAND : ["restart", ".reset", "gpreboot"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo", "adbk", "adbgt"]
+ADDSUDO_COMMAND : ["sudoekle", "adbk", "adbgt"]
 DELSUDO_COMMAND : ["delsudo", "delbk", "delbgt"]
 SUDOUSERS_COMMAND : ["sudolist", "bklist", "bgtlist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast", "bcast", "gcast"]
+BROADCAST_COMMAND : ["reklam", "bcast", "gcast"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
@@ -81,7 +81,7 @@ VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update"]
+UPDATE_COMMAND : ["reload"]
 REBOOT_COMMAND : ["reboot"]
 AUTOEND_COMMAND : ["autoend"]
 
