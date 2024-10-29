@@ -20,7 +20,7 @@ def help_pannel(_, START: Union[bool, int] = None):
             url=f"t.me/sevimsiz_biri",
         ),
         InlineKeyboardButton(
-            text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data=f"close"
+            text="❌ 𝐤𝐚𝐩𝐚𝐭 ❌", callback_data=f"close"
         ),
     ]
     mark = second if START else first
