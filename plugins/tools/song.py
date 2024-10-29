@@ -15,7 +15,7 @@ from Bikash.utils.formatters import convert_bytes
 from Bikash.utils.inline.song import song_markup
 
 
-@app.on_message(filters.command("song") & ~BANNED_USERS)
+@app.on_message(filters.command("bul") & ~BANNED_USERS)
 @language
 async def song(client, message: Message, _):
     await message.delete()
