@@ -80,7 +80,7 @@ HELP_6 = """✅**<u>Bot's Server Playlists:</u>**
 
  /oynat - Kayıtlı Çalma Listenizi Sunuculardan oynatmaya başlayın."""
 
- HELP_7 = """✨ ping cmd'si:
+ HELP_2 = """✅<u>**ping cmd:**</u>
 
  /ping- Bot'a ping atın ve Bot'un Ram, Cpu vb. istatistiklerini kontrol edin.
 
