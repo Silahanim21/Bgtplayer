@@ -28,15 +28,6 @@ Kimlik Doğrulama Kullanıcılar, sohbetinizde yönetici hakları olmadan yönet
 
  /authusers - Grubun YETKİLENDİRME LİSTESİNİ kontrol edin."""
 
- HELP_3 = """✅<u>**kara liste:**</u>
-
- /blacklistchat [CHAT_ID] - Müzik Botu kullanılarak yapılan tüm sohbetleri kara listeye alın
-
- /whitelistchat [CHAT_ID] - Müzik Botu kullanılarak kara listeye alınan tüm sohbetleri beyaz listeye ekleyin
-
- /blacklistedchat - Kara listedeki tüm sohbetleri kontrol edin..
-"""
-
 HELP_3 = """⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
 
 /blacklistchat [CHAT_ID] - Müzik Botu kullanılarak yapılan tüm sohbetleri kara listeye alın
