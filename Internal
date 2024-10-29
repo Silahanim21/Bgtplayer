@@ -1,5 +1,5 @@
-UPSTREAM_REPO=https://github.com/BikashHalderNew/Bgtplayer
-UPSTREAM_BRANCH=bikash
+UPSTREAM_REPO=https://github.com/Mehmetkurt676767/Bgtplayer
+UPSTREAM_BRANCH=Mehmet
 AUTO_DOWNLOADS_CLEAR=True
 API_ID=25496841
 API_HASH=d7ed3ebb8f4323c37c5ffcac40e677d4
